@@ -1,6 +1,8 @@
 development:
-  adapter: postgresql
+  adapter: mysql2
   host: localhost
+  username: root
+  password: password
   database: whiteboard_development
 
 test:

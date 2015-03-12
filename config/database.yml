@@ -6,11 +6,15 @@ development:
   database: whiteboard_development
 
 test:
-  adapter: postgresql
+  adapter: mysql2
   host: localhost
+  username: root
+  password: password
   database: whiteboard_test
 
 production:
-  adapter: postgresql
+  adapter: mysql2
   host: localhost
+  username: root
+  password: password
   database: whiteboard_production

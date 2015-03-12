@@ -39,6 +39,8 @@ GEM
     capistrano-bundler (1.1.4)
       capistrano (~> 3.1)
       sshkit (~> 1.2)
+    capistrano-file-permissions (0.1.0)
+      capistrano (>= 3.0.0)
     capistrano-passenger (0.0.2)
       capistrano (~> 3.0)
     capistrano-rails (1.1.2)
@@ -241,6 +243,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass (~> 2.3.2)
   capistrano-bundler
+  capistrano-file-permissions
   capistrano-passenger
   capistrano-rails
   capistrano-rbenv

@@ -20,6 +20,7 @@ group :development do
   gem 'capistrano-passenger'
   gem 'capistrano-bundler'
   gem 'capistrano-rbenv'
+  gem 'capistrano-file-permissions'
 end
 
 group :test, :development do

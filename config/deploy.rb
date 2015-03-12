@@ -1,5 +1,7 @@
+# require 'bundler/capistrano'
+
 # Ensure that bundle is used for rake tasks
-SSHKit.config.command_map[:rake] = "bundle exec rake"
+# SSHKit.config.command_map[:rake] = "bundle exec rake"
 
 # config valid only for Capistrano 3.1
 lock '3.4.0'

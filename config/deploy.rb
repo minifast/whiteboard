@@ -2,7 +2,7 @@
 SSHKit.config.command_map[:rake] = "bundle exec rake"
 
 # config valid only for Capistrano 3.1
-lock '3.1.0'
+lock '3.4.0'
 
 set :repo_url, 'https://github.com/minifast/whiteboard'
 set :branch, "master"

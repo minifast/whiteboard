@@ -16,6 +16,13 @@ gem 'uglifier'
 gem 'bootstrap-sass', '~> 2.3.2'
 gem 'font-awesome-sass-rails'
 
+group :development do
+  gem 'capistrano-rails'
+  gem 'capistrano-passenger'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rbenv'
+end
+
 group :test, :development do
   gem 'minitest'
   gem 'rspec-rails', '2.14.0'
@@ -36,8 +43,4 @@ end
 
 group :test do
   gem 'selenium-webdriver'
-end
-
-group :development do
-  gem 'auto_tagger'
 end
